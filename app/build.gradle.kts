@@ -68,8 +68,12 @@ dependencies {
     debugImplementation(libs.androidx.ui.test.manifest)
 
     // Retrofit
-    implementation(libs.retrofit2.kotlinx.serialization.converter)
     implementation(libs.retrofit)
+    implementation (libs.converter.gson)
+    implementation (libs.okhttp)
+    // Retrofit with Scalar Converter
+    implementation(libs.converter.scalars)
+    implementation(libs.retrofit2.kotlinx.serialization.converter)
     //coil
     implementation(libs.coil.compose)
     //???

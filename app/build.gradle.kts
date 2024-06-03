@@ -69,10 +69,8 @@ dependencies {
 
     // Retrofit
     implementation(libs.retrofit)
-    implementation (libs.converter.gson)
-    implementation (libs.okhttp)
-    // Retrofit with Scalar Converter
-    implementation(libs.converter.scalars)
+    implementation(libs.converter.gson)
+    implementation(libs.okhttp)
     implementation(libs.retrofit2.kotlinx.serialization.converter)
     //coil
     implementation(libs.coil.compose)
